@@ -1,0 +1,119 @@
+{
+  "gem_version": "~> 2.4.0",
+  "partitions": {
+    "sda2": {
+      "size": "2",
+      "filesystem": "dos"
+    },
+    "sda5": {
+      "size": "133163008",
+      "filesystem": "LVM2_member"
+    },
+    "sda1": {
+      "size": "1048576",
+      "mount": "/boot/efi",
+      "filesystem": "vfat"
+    }
+  },
+  "uptime_days": 0,
+  "processors": {
+    "models": [
+      "Intel(R) Core(TM) i7-1068NG7 CPU @ 2.30GHz"
+    ],
+    "count": 1,
+    "physicalcount": 1
+  },
+  "kernel": "Linux",
+  "architecture": "amd64",
+  "hardwaremodel": "x86_64",
+  "operatingsystem": "Ubuntu",
+  "os": {
+    "name": "Ubuntu",
+    "family": "Debian",
+    "release": {
+      "major": "20.04",
+      "full": "20.04"
+    },
+    "lsb": {
+      "distcodename": "focal",
+      "distid": "Ubuntu",
+      "distdescription": "Ubuntu 20.04.1 LTS",
+      "distrelease": "20.04",
+      "majdistrelease": "20.04"
+    }
+  },
+  "processor0": "Intel(R) Core(TM) i7-1068NG7 CPU @ 2.30GHz",
+  "processorcount": 1,
+  "augeasversion": "1.12.0",
+  "rubysitedir": "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.5.0",
+  "blockdevice_sda_size": 68719476736,
+  "blockdevice_sda_vendor": "ATA",
+  "blockdevice_sda_model": "VBOX HARDDISK",
+  "blockdevices": "sda",
+  "operatingsystemrelease": "20.04",
+  "rubyversion": "2.5.9",
+  "uptime_seconds": 124,
+  "ipaddress": "127.0.2.1",
+  "puppetversion": "6.22.1",
+  "system_uptime": {
+    "seconds": 124,
+    "hours": 0,
+    "days": 0,
+    "uptime": "0:02 hours"
+  },
+  "timezone": "UTC",
+  "lsbdistrelease": "20.04",
+  "uptime": "0:02 hours",
+  "osfamily": "Debian",
+  "boardmanufacturer": "Oracle Corporation",
+  "boardproductname": "VirtualBox",
+  "boardserialnumber": "0",
+  "bios_vendor": "innotek GmbH",
+  "bios_version": "VirtualBox",
+  "bios_release_date": "12/01/2006",
+  "manufacturer": "innotek GmbH",
+  "productname": "VirtualBox",
+  "serialnumber": "0",
+  "uuid": "8c600f5c-0b40-1c49-bc66-81abc409acef",
+  "type": "Other",
+  "hostname": "foo",
+  "kernelrelease": "5.4.0-58-generic",
+  "filesystems": "btrfs,ext2,ext3,ext4,squashfs,vfat",
+  "selinux": false,
+  "facterversion": "2.4.6",
+  "lsbmajdistrelease": "20.04",
+  "virtual": "kvm",
+  "is_virtual": true,
+  "lsbdistcodename": "focal",
+  "gid": "root",
+  "uniqueid": "007f0102",
+  "operatingsystemmajrelease": "20.04",
+  "sshrsakey": "AAAAB3NzaC1yc2EAAAADAQABAAABgQDcQqX/RAlgVc8rWNIrW25+NWdBUeJxQjiId4fREx58gB59r4Rr0KxCBm72HWu5gAT0L9ofE0h9LOjHin4sDcrQ5R1lqk9+ZAgSOnym0JgcQZwQAPtk1BtnlrOgYLLe1IqZPjjcMBVH2+WUFA7i54vOw5vV+XPhDn8OVz1jE8eqMWTWAuidMwZvN5JUlceyB6fQkCczc4vW2Lv3lJddQAsZqLAopxtMEPBzPpNs/yszM48VF2Q6loSL4ois3cJ0tx5SJkXIBS80cizZXEjBWY0A1EhdsqNdwbG7Q87NTBbrq4PSw/21U6lHe2cQ1zMDgvKp//tLoAeoSOnvSBgGaQCPQPVy5INETPjFwiY9QW+G/r/KGwP9bCDMORhq/3VeX2PG5Pm7OoVhZMRUsreyOmAtTH2fZ1jBB9EndQpgTLrgxUI39fpeVVE5+FurbSLbWIbDrzMMi3eHBkervamUj2XP5UFlE7gKBH7LxYOeGWub8yo1S71ylp64Q2aQwS3yhR0=",
+  "sshfp_rsa": "SSHFP 1 1 7e356cf6db6872c71afa8b121b3221c6db5475a7\nSSHFP 1 2 cfb357332cc94115a7cdde0c39a232732c8343fefc1bed4c17f90b5805b63fd1",
+  "sshecdsakey": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNdac39d+RsdQBpeD4UBonnhrXXERzzBRZqS4DDKXSCWhd2HDsUpNrRVKnb9d+Pp4rCASQ/b3khM8IO8Vo00Z9Q=",
+  "sshfp_ecdsa": "SSHFP 3 1 47b4e7f61785b2147d465de1ff3186dc7b7dd791\nSSHFP 3 2 16d0868839f3ceb6d8968f3ed70f273e87013a6d5f5fddbfe5851b448b5f37ad",
+  "sshed25519key": "AAAAC3NzaC1lZDI1NTE5AAAAIJ+hGo5YGR4rhu7kLOZuebom+DV0wDKN7gLQbEgNDqzx",
+  "sshfp_ed25519": "SSHFP 4 1 f39f1703c209441a638aa0fb61c4e7f1b6afd958\nSSHFP 4 2 31dae03b0893b8dfc4cd1ab3370d0b19aafafec43874c6ad88b832b78357a3da",
+  "physicalprocessorcount": 1,
+  "id": "root",
+  "memorysize": "981.32 MB",
+  "memoryfree": "780.82 MB",
+  "swapsize": "980.00 MB",
+  "swapfree": "979.48 MB",
+  "swapsize_mb": "980.00",
+  "swapfree_mb": "979.48",
+  "memorysize_mb": "981.32",
+  "memoryfree_mb": "780.82",
+  "fqdn": "foo.example.com",
+  "kernelmajversion": "5.4",
+  "domain": "example.com",
+  "uptime_hours": 0,
+  "interfaces": "",
+  "lsbdistid": "Ubuntu",
+  "rubyplatform": "x86_64-linux",
+  "lsbdistdescription": "Ubuntu 20.04.1 LTS",
+  "path": "/home/vagrant/vendor/bundler/ruby/2.5.0/bin:/opt/puppetlabs/puppet/bin:/opt/puppetlabs/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+  "ps": "ps -ef",
+  "hardwareisa": "x86_64",
+  "kernelversion": "5.4.0"
+}
